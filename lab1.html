@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Лабораторна 1 — Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+
+<div class="container">
+
+  <div class="jumbotron">
+    <h1><span class="glyphicon glyphicon-education"></span> Хелло!</h1>
+    <p>Демо bootstrap</p>
+  </div>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Мій сайт</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Головна</a></li>
+        <li><a href="#">Про мене</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ol class="breadcrumb">
+    <li><a href="#">Головна</a></li>
+    <li class="active">Сторінка</li>
+  </ol>
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Ліво</button>
+    <button type="button" class="btn btn-primary">Середина</button>
+    <button type="button" class="btn btn-primary">Право</button>
+  </div>
+
+  <hr>
+
+  <div class="input-group" style="max-width:300px;">
+    <span class="input-group-addon">@</span>
+    <input type="text" class="form-control" placeholder="Ім'я користувача">
+  </div>
+
+  <hr>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Дім милий Дім</a></li>
+    <li><a data-toggle="tab" href="#menu1">Меню 1</a></li>
+  </ul>
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <p>Контент 1</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <p>Контент 2</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <ul class="pagination">
+    <li><a href="#">&laquo;</a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">&raquo;</a></li>
+  </ul>
+
+  <ul class="pager">
+    <li><a href="#">Назад</a></li>
+    <li><a href="#">Вперед</a></li>
+  </ul>
+
+  <hr>
+
+  <h4>Мітки: 
+    <span class="label label-default">Default</span>
+    <span class="label label-success">Success</span>
+  </h4>
+  <button class="btn btn-primary">
+    Повідомлення <span class="badge">4</span>
+  </button>
+
+  <hr>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="img/1.png" alt="Фото">
+        <div class="caption">
+          <p>Зменшене фото</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="alert alert-success">
+    <strong>Успіх!</strong> Все працює.
+  </div>
+
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:60%">
+      60%
+    </div>
+  </div>
+
+  <div class="media">
+    <div class="media-left">
+      <img src= "img/2.png" class="media-object">
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Коментар</h4>
+      <p>Тут текст коментаря.</p>
+    </div>
+  </div>
+
+  <ul class="list-group" style="max-width:300px;">
+    <li class="list-group-item">Повідомлення <span class="badge">7</span></li>
+    <li class="list-group-item">Задачі <span class="badge">3</span></li>
+  </ul>
+
+  <div class="panel panel-primary">
+    <div class="panel-heading">Заголовок</div>
+    <div class="panel-body">Основний текст</div>
+    <div class="panel-footer">Футер</div>
+  </div>
+
+  <div class="embed-responsive embed-responsive-16by9" style="max-width:500px;">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=Jf8XOrLYp-8"></iframe>
+  </div>
+
+  <div class="well">
+    Це підказка 
+  </div>
+
+  <button type="button" class="close" aria-label="Закрити">
+    <span aria-hidden="true">&times;</span>
+  </button>
+
+</div>
+
+</body>
+</html>
